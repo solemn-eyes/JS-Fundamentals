@@ -1,7 +1,7 @@
-let i = 1;
+const messages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-for (let j = 0; j < i; j++) {
-    console.log("C is fun");
-    console.log("Python is cool");
-    console.log("JavaScript is amazing");
+for (let i = 0; i < messages.length; i++) {
+    console.log(messages[i]);
 }
+
+
